@@ -1,5 +1,7 @@
 # boltz_webui
- Basic streamlit webui for running Boltz-1 biomolecular structure generator. 
+Basic streamlit webui for running Boltz-1 biomolecular structure generator.
+
+https://github.com/jwohlwend/boltz
 
 ## Installation
 First, create a virtual environment:
