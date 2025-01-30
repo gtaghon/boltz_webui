@@ -160,13 +160,13 @@ def main():
 
                     # Display model_0
                     if output_format == "pdb":
-                        st.markdown("**Generated PDB Model**")
                         location = f"./temp/boltz_results_{fname}/predictions/{fname}/{fname}_model_0.pdb"
                         pdb_data = Path(location).read_text()
 
                         # Create a container for the viewer
                         viewer_container = st.container(border=True)
                         with viewer_container:
+                        st.markdown("**Generated PDB Model**")
                             # Embed the 3Dmol React.js component
                             components.html(
                                 f"""
