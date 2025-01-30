@@ -23,4 +23,4 @@ Preview is not avaibale for MMCIF output.
 Click the `Download` button to acquire the generated pdb/cif file.
 
 ## Disclaimer
-This is an alpha version of the webui and it may not behave as intended. Use it as your own risk.
+This is an alpha version of the webui and it may not behave as intended. Use it at your own risk.
