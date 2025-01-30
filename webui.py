@@ -41,7 +41,7 @@ def get_accelerator() -> str:
     elif torch.backends.mps.is_available():
         # Not all operations implemented on MPS yet, set fallback to CPU
         os.environ['PYTORCH_ENABLE_MPS_FALLBACK'] = '1'
-        print(logger.warning("Enabled experimental MPS PyTorch Lightning support."))
+        logger.warning("Enabled experimental MPS PyTorch Lightning support. Some operations are not implemented and will fall back to CPU.")
         return "gpu"
     else:
         return "cpu"
