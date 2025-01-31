@@ -1,7 +1,9 @@
 # boltz_webui
-Basic streamlit webui for running Boltz-1 biomolecular structure generator.
+Basic streamlit webui for running Boltz-1 biomolecular structure generator. Supports automatic GPU acceleration with CUDA and Metal*.
 
 https://github.com/jwohlwend/boltz
+
+**Experimental support, tested on Apple M2/M2 Max*
 
 ## Installation
 First, create a virtual environment:
