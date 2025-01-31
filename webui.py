@@ -104,6 +104,9 @@ def main():
 
     st.set_page_config(layout="wide")
     st.title("⚡️ Boltz-1 Biomolecular Simulation Interface ⚡️")
+
+    # Create temp dir
+    os.makedirs("./temp", exist_ok=True)
     
     # Input section
     seq = st.text_input(
